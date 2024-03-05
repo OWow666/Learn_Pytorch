@@ -1,0 +1,16 @@
+激活函数：
+https://zhuanlan.zhihu.com/p/364620596
+
+sigmoid
+	公式：1/(1+exp(-x))
+
+ReLU
+	公式：max(0,x)
+
+Softmax
+	公式：e^x_i/sigma(e^x_i)
+	改进公式：对 x_i 加上 logC ,（ C 为 x_i 的最大值）
+
+池化层：
+    1、减少运算量，避免卷积参数爆炸
+    2、提取关键特征
